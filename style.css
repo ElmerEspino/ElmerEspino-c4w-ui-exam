@@ -1,0 +1,46 @@
+body {
+	font-family: arial;
+	font-size: 12px;
+	color: #000000;
+}
+.container {
+  height: 180px;
+  overflow: auto;
+  max-height: 180px;
+  min-height: 180px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  height: 30px;
+}
+tr:nth-child(3n+1) {
+  background-color: #FF5733;
+}
+th {
+  background: #f1f1f1;
+  font-weight: bold;
+  border: 1px solid #999999;
+}
+td {
+  border: 1px solid #999999;
+  text-align: center;
+}
+.btnImport {
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  border: 0;
+  border-style: none;
+}
+hr {
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #f1f1f1;
+  margin: 18px 0;
+}
+	

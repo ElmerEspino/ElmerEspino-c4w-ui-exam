@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KMC Solution Exam</title>
+<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <table id="myTable">
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Company</th>
+      <th>Email Address</th>
+      <th>Date Registered</th>
+      <th>Greetings</th>
+    </tr>
+  </table>
+</div>
+<hr>
+<button id="btnImport" class="btnImport">
+  Import Data
+</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="getJson.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	$(document).ready(function() {
+	  $("#btnImport").click(function() {
+		ImportJSon();
+	  });
+	});
+});
+</script>
+</body>
+</html>
